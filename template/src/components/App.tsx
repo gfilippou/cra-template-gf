@@ -32,10 +32,8 @@ const App: FC = () => {
         paddingY='0.8rem'
         spacing='0.5rem'
       >
-        <C.Heading size='md' color='heading'>
-          cra-template-gf
-        </C.Heading>
-        <C.Text>Create React App, GF's custom template by</C.Text>
+        <C.Heading>cra-template-gf</C.Heading>
+        <C.Text>Create React App, GF's custom template</C.Text>
       </C.Stack>
     </C.Stack>
   );
