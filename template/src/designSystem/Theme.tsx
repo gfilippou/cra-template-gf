@@ -35,6 +35,7 @@ export const theme = C.extendTheme({
     ash: '#8b8b8b',
     white: '#ffffff',
     offwhite: '#f5f5f5',
+    reactBlue: '#61DAFB',
   },
   styles: {
     global: (props: C.StyleFunctionProps) => ({
@@ -51,3 +52,15 @@ export const theme = C.extendTheme({
     initialColorMode: 'light',
   },
 });
+
+C.Heading.defaultProps = {
+  color: 'heading',
+  size: 'md',
+  paddingTop: '1.5rem',
+};
+
+C.Spinner.defaultProps = {
+  color: 'reactBlue',
+  size: 'md',
+  alignSelf: 'center',
+};
